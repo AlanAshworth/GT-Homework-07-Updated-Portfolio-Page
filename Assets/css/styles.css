@@ -4,7 +4,7 @@ header {
 }
 
 body {
-  background: url(../Images/cement_plaster_white.jpg) no-repeat center center
+  background: url(../Images/background.jpg) no-repeat center center
     fixed;
   background-size: cover;
   color: rgba(0, 0, 0, 0.5);
@@ -92,6 +92,10 @@ footer {
   background-color: rgb(75, 75, 75);
 }
 
+.footer-copyright {
+  text-align: center;
+}
+
 .float-left {
   float: left;
   margin-right: 25px;
@@ -105,6 +109,15 @@ footer {
   margin: 10px;
 }
 
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 #contact-form {
   width: 100%;
+}
+
+#my-links {
+  text-align: center;
 }
