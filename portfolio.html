@@ -1,120 +1,149 @@
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Portfolio</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap css -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <!-- custom css -->
-    <link rel="stylesheet" href="Assets/css/styles.css" />
-  </head>
-  <body class="d-flex flex-column h-100">
-    <!-- Header contains modified Bootstrap Navbar -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Alan Ashworth</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html"
-              >About<span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
-        </div>
-      </nav>
-    </header>
+<html lang="en-us">
 
-    <!-- Main section contains modified Bootstrap Card with Bootstrap flex grid of rows and columns-->
-    <main class="card">
-      <div class="card-body">
-        <h5 class="card-title">Portfolio</h5>
-        <hr class="my-4" />
-        <div class="container-fluid my-container">
-          <div class="row my-row">
-            <div class="col-xs my-col">
-              <img
-                src="https://www.fillmurray.com/200/200"
-                alt="A surprised Bill Murray"
-              />
-            </div>
-            <div class="col-xs my-col">
-              <img
-                src="https://www.fillmurray.com/200/200"
-                alt="A surprised Bill Murray"
-              />
-            </div>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Portfolio</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="Assets/css/styles.css" media="screen">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand" href="index.html" id="logo">Alan Ashworth</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+            </ul>
           </div>
-          <div class="row my-row">
-            <div class="col-xs my-col">
-              <img
-                src="https://www.fillmurray.com/200/200"
-                alt="A surprised Bill Murray"
-              />
-            </div>
-            <div class="col-xs my-col">
-              <img
-                src="https://www.fillmurray.com/200/200"
-                alt="A surprised Bill Murray"
-              />
-            </div>
-          </div>
-          <div class="row my-row">
-            <div class="col-xs my-col">
-              <img
-                src="https://www.fillmurray.com/200/200"
-                alt="A surprised Bill Murray"
-              />
-            </div>
-          </div>
+          <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+      </nav>
+      <!-- End of navbar -->
+
+  <!-- Start of container -->
+  <div class="container">
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">Portfolio</h1>
+          <hr />
+          <h3 class="block-header">Assignments</h3>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="Assets/Images/homework_01_code-refactor.png" alt="Code Refactor">
+              <div>
+                <span class="float-left"><h6>1. Code Refactor</h6></span>
+                <span class="float-right"><a href="https://alanashworth.github.io/GT-Homework-01/" target="_blank">site</a><span>|</span><a href="https://github.com/AlanAshworth/GT-Homework-01" target="_blank">repo</a></span>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="Assets/Images/homework_02_responsiveness-portfolio.png" alt="Responsiveness Portfolio">
+              <div>
+                <span class="float-left"><h6>2. Responsiveness Portfolio</h6></span>
+                <span class="float-right"><a href="https://alanashworth.github.io/GT-Homework-02/" target="_blank">site</a><span>|</span><a href="https://github.com/AlanAshworth/GT-Homework-02" target="_blank">repo</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="Assets/Images/homework_03_password-generator.png" alt="Password Generator">
+              <div>
+                <span class="float-left"><h6>3. Password Generator</h6></span>
+                <span class="float-right"><a href="https://alanashworth.github.io/GT-Homework-03/" target="_blank">site</a><span>|</span><a href="https://github.com/AlanAshworth/GT-Homework-03" target="_blank">repo</a></span>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="Assets/Images/homework_04_code-quiz.png" alt="Code Quiz">
+              <div>
+                <span class="float-left"><h6>4. Code Quiz</h6></span>
+                <span class="float-right"><a href="https://alanashworth.github.io/GT-Homework-04/" target="_blank">site</a><span>|</span><a href="https://github.com/AlanAshworth/GT-Homework-04" target="_blank">repo</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="Assets/Images/homework_05_day-planner.png" alt="Day Planner">
+              <div>
+                <span class="float-left"><h6>5. Day Planner</h6></span>
+                <span class="float-right"><a href="https://alanashworth.github.io/GT-Homework-05/" target="_blank">site</a><span>|</span><a href="https://github.com/AlanAshworth/GT-Homework-05" target="_blank">repo</a></span>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="Assets/Images/homework_06_weather-dashboard.png" alt="Weather Dashboard">
+              <div>
+                <span class="float-left"><h6>6. Weather Dashboard</h6></span>
+                <span class="float-right"><a href="https://alanashworth.github.io/GT-Homework-06/" target="_blank">site</a><span>|</span><a href="https://github.com/AlanAshworth/GT-Homework-06" target="_blank">repo</a></span>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <h3 class="block-header">Projects</h3>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="Assets/Images/project_01_rise-and-shine.png" alt="Day Planner">
+              <div>
+                <span class="float-left"><h6>1. Rise and Shine</h6></span>
+                <span class="float-right"><a href="https://fmiusov.github.io/Rise-and-Shine/" target="_blank">site</a><span>|</span><a href="https://github.com/fmiusov/Rise-and-Shine" target="_blank">repo</a></span>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </main>
+  </div>
+  <!-- End of container -->
 
-    <!-- Footer is stickied to bottom with Bootstrap Sticky Footer template -->
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <div class="footer-copyright text-center py-3">© Copyright</div>
-      </div>
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">&copy; Copyright
+      <span>Email: <a href="mailto:awashworth927@gmail.com">awashworth927@gmail.com</a> | </span>
+      <span>Mobile: <a href="tel:770-823-9350">(770) 823-9350</a> | </span>
+      <span>My Resume: <a href="Assets/resources/MyResume.pdf" target="_blank">Link</a></span>
+    </p>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/alan-ashworth-4019b519a/" target="_blank"><img id="img-linkedin" src="Assets/Images/linkedin.png" alt="Linkedin"></a>
+      <a href="https://github.com/AlanAshworth" target="_blank"><img id="img-github" src="Assets/Images/github.png" alt="Github"></a>
+      <a href="https://stackoverflow.com/users/12620631/alan-ashworth" target="_blank"><img id="img-stackoverflow" src="Assets/Images/stackover2.png" alt="stack overflow"></a>
+    </div>
     </footer>
+  <!-- End of footer -->
 
-    <!-- Bootstrap scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+
+</body>
+
 </html>
